@@ -45,11 +45,18 @@ python main.py
 
 | Тема статьи | Файлы |
 |---|---|
+| [`ai-disrupt-pdlc-na-praktike-gde-ii-realn`](examples/ai-disrupt-pdlc-na-praktike-gde-ii-realn) | `README.md`, `example.py` |
 | [`catboost-example`](examples/catboost-example) | `README.md`, `example.py` |
+| [`example-agent`](examples/example-agent) | `README.md`, `example_agent.py`, `requirements.txt` |
 | [`hotcold-mem-optimization`](examples/hotcold-mem-optimization) | `README.md`, `main.py` |
 | [`idor-static-analyzer`](examples/idor-static-analyzer) | `README.md`, `example.py` |
+| [`ii-agentu-zapretili-zapis-v-crm-crm-vse`](examples/ii-agentu-zapretili-zapis-v-crm-crm-vse) | `README.md`, `example.py` |
+| [`kak-my-avtomatizirovali-kontrol-sborki-z`](examples/kak-my-avtomatizirovali-kontrol-sborki-z) | `README.md`, `accounting.py`, `camera.py`, `main.py`, `reporting.py` |
+| [`kak-ya-sdelal-openclaw-ii-na-5000-sotrud`](examples/kak-ya-sdelal-openclaw-ii-na-5000-sotrud) | `README.md`, `example.py` |
+| [`miga-cassandra-migration-example`](examples/miga-cassandra-migration-example) | `README.md`, `main.py`, `requirements.txt` |
 | [`nativeaotrefactoring`](examples/nativeaotrefactoring) | `README.md`, `main.py` |
 | [`pgvector-example`](examples/pgvector-example) | `README.md`, `example.py` |
+| [`skrinshoty-zhgut-tokeny-headless-ne-zalo`](examples/skrinshoty-zhgut-tokeny-headless-ne-zalo) | `README.md`, `example.py` |
 | [`vibcoding-firstcatastrophe`](examples/vibcoding-firstcatastrophe) | `README.md`, `example.py` |
 
 ## Как это собирается
