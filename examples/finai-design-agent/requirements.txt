@@ -1,0 +1,2 @@
+langchain==0.0.151
+google-bard-api==1.0.0
