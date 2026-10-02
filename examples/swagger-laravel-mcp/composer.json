@@ -1,0 +1,7 @@
+{
+    "require": {
+        "laravel/framework": "^10.0",
+        "laravel/mcp": "^1.0",
+        "league/sql-dialects": "^3.0"
+    }
+}
