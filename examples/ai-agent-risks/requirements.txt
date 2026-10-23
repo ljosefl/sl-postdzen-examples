@@ -1,0 +1,3 @@
+langchain==1.0.0
+copilot==2.0.0
+mcp_server==0.1.0
