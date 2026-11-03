@@ -1,0 +1,22 @@
+{
+  "name": "mcp-linter",
+  "version": "1.0.0",
+  "description": "A linter for MCP servers to check for console.logs, missing destructiveHint annotations, and prompt injection.",
+  "main": "main.ts",
+  "scripts": {
+    "test": "ts-node --project tsconfig.json test.ts",
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "child_process": "^0.7.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.5"
+  }
+}
