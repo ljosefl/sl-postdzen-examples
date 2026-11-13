@@ -1,0 +1,44 @@
+// main.unio
+import "io"
+
+// Манифест полномочий
+manifest {
+    allow "read", "write"
+}
+
+// Объявление функции для чтения файла
+def read_file(path: str) -> str {
+    using io {
+        // Открываем файл для чтения
+        var file = open(path, "r")
+        var content = file.read()
+        file.close()
+        return content
+    }
+}
+
+// Объявление функции для записи файла
+def write_file(path: str, content: str) {
+    using io {
+        // Открываем файл для записи
+        var file = open(path, "w")
+        file.write(content)
+        file.close()
+    }
+}
+
+// Основная функция
+def main() {
+    // Чтение файла
+    var content = read_file("example.txt")
+    println("Содержимое файла: " + content)
+
+    // Запись нового содержимого в файл
+    write_file("example.txt", "Новый текст для файла")
+    println("Текст успешно записан в файл")
+}
+
+// Точка входа
+if __name__ == "__main__" {
+    main()
+}
